@@ -1,3 +1,4 @@
+import 'package:cake_concept_app/presentation/shared/color.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatelessWidget {
@@ -5,8 +6,9 @@ class SplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: Text('Splash'),),
+    return Scaffold(
+      backgroundColor: UIColor.example(context),
+      body: const Center(child: Text('Splash'),),
     );
   }
 }

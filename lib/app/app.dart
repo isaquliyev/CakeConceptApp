@@ -35,6 +35,8 @@ class App extends StatelessWidget {
             title: 'Cakey',
             themeAnimationDuration: AppDurations.ms500,
             theme: myTheme,
+            darkTheme: CakeyThemeData.darkTheme,
+            themeMode: ThemeMode.system,
             navigatorKey: locator(),
             debugShowCheckedModeBanner: false,
             locale: Provider.of<LocalizationProvider>(context).locale,
